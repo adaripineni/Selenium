@@ -47,7 +47,7 @@ public class DropdownTest {
 		d = new ChromeDriver();
 		d.manage().window().maximize();
 
-		d.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);		
+		d.manage().timeouts().implicitlyWait(13, TimeUnit.SECONDS);		
 
 		d.get("https://www.globalsqa.com/demo-site/select-dropdown-menu/");
 		Thread.sleep(7000);
