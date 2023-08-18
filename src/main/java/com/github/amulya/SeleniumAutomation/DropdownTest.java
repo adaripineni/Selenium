@@ -48,7 +48,7 @@ public class DropdownTest {
 		d.manage().window().maximize();
 		d.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);		
 		d.get("https://www.globalsqa.com/demo-site/select-dropdown-menu/");
-		Thread.sleep(6000);
+		Thread.sleep(7000);
 	} 
 	
 	@Test
