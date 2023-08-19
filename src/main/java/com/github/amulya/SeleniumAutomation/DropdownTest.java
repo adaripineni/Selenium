@@ -61,7 +61,7 @@ public class DropdownTest {
 		for( WebElement option:options) {
 			if(option.getText().startsWith("B")){
 				menu.selectByVisibleText(option.getText());
-				Thread.sleep(1000);
+				Thread.sleep(2000);
 			}
 		}
 //		menu.selectByIndex(options.size()-1);
