@@ -46,7 +46,9 @@ public class DropdownTest {
 		// TODO Auto-generated method stub
 		d = new ChromeDriver();
 		d.manage().window().maximize();
-		d.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);		
+
+		d.manage().timeouts().implicitlyWait(13, TimeUnit.SECONDS);		
+
 		d.get("https://www.globalsqa.com/demo-site/select-dropdown-menu/");
 		Thread.sleep(7000);
 	} 
@@ -59,7 +61,7 @@ public class DropdownTest {
 		for( WebElement option:options) {
 			if(option.getText().startsWith("B")){
 				menu.selectByVisibleText(option.getText());
-				Thread.sleep(1000);
+				Thread.sleep(3000);
 			}
 		}
 //		menu.selectByIndex(options.size()-1);
